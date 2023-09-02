@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        .container {
-            display: flex; /* Use flexbox */
-        }
+# 💫 About Me:
+Systems <br><br>Passionate about backend development<br><br>Senior Dev @ UW Blueprint<br><br>Looking for Winter 2024 Internships
 
-        .widget {
-            flex: 1; /* Equal flex distribution to both widgets */
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="widget">
-            <!-- Widget 1 content goes here -->
-            <h2>Widget 1</h2>
-            <p>Widget 1 content goes here.</p>
-        </div>
-        <div class="widget">
-            <!-- Widget 2 content goes here -->
-            <h2>Widget 2</h2>
-            <p>Widget 2 content goes here. It will have the same height as Widget 1.</p>
-        </div>
-    </div>
-</body>
-</html>
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aathi) 
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=achandrabalan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=achandrabalan&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
