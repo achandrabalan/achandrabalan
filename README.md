@@ -1,6 +1,11 @@
+## Hey , I'm Aathi
 
 
-<p>Hi, I'm Aathi</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=achandrabalan&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+Currently seeking Winter 2024 internships! 
+Connect @ achandrabalan1@outlook.com | https://www.linkedin.com/in/aathi
+
+##
+                                                                                                                                                                         
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aanxniee&layout=compact&theme=swift&show_icons=true)](https://github.com/achandrabalan/github-readme-stats)
