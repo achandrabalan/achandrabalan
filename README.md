@@ -3,7 +3,7 @@
 
 
 
-Currently seeking Winter 2024 internships! <br>
+Currently seeking Winter 2024 internships! \\
 Connect @ achandrabalan1@outlook.com | https://www.linkedin.com/in/aathi
 
 ##
