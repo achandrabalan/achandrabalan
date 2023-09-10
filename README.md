@@ -1,4 +1,4 @@
-## Hey, I'm Aathi
+## Hey, I'm Aathi 👋
 
 
 
