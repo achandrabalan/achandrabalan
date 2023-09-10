@@ -1,9 +1,9 @@
-## Hey , I'm Aathi
+## Hey, I'm Aathi
 
 
 
 
-Currently seeking Winter 2024 internships! 
+Currently seeking Winter 2024 internships! <br>
 Connect @ achandrabalan1@outlook.com | https://www.linkedin.com/in/aathi
 
 ##
