@@ -1,7 +1,7 @@
 ## Hey, I'm Aathi 👋
 
-
-
+Sytems engineering student @ the University of Waterloo.   
+Passionate about software development and its capacity to solve real-world challenges. Open to opportunities to apply my knowledge and contribute to innovative projects.
 
 Currently seeking Winter 2024 internships!  
 Connect @ achandrabalan1@outlook.com | https://www.linkedin.com/in/aathi
