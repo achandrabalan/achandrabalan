@@ -1,6 +1,7 @@
 
 <hr>
 <p>Hi, I'm Aathi</p>
+
 <style>
   hr.small-hr {
     height: 1px; /* Set the height to make it smaller */
