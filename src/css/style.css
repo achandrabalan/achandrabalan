@@ -162,6 +162,16 @@ body {
   grid-gap: 0.9rem;
 }
 
+.experience {
+  grid-template-columns: 1fr !important;
+  grid-auto-rows: minmax(250px, auto);
+  grid-gap: 0.9rem;
+}
+
+.experience-block {
+  margin-bottom: 2rem; /* or however much space you want */
+}
+
 .card .project-bio p {
   font-size: 0.83rem;
 }

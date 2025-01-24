@@ -53,17 +53,17 @@
     <style>
       /* Flex container for the nav */
       .navbar .container {
-        display: flex;                /* enables flex behavior */
-        align-items: center;          /* vertical alignment */
+        display: flex; /* enables flex behavior */
+        align-items: center; /* vertical alignment */
         justify-content: space-between; /* space between hamburger and nav */
       }
 
       /* Position the nav menu on the right */
       .nav-menu {
-        display: flex;               /* display links in a row */
-        list-style: none;            /* remove default list styling */
-        margin-left: auto;           /* pushes the menu to the right */
-        align-items: center;         /* center items vertically */
+        display: flex; /* display links in a row */
+        list-style: none; /* remove default list styling */
+        margin-left: auto; /* pushes the menu to the right */
+        align-items: center; /* center items vertically */
       }
 
       /* Spacing between each nav item */
@@ -93,9 +93,11 @@
           <ul class="nav-menu">
             <li><a class="nav-link" href="#experience">EXPERIENCE</a></li>
             <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li>
               <a
                 class="nav-link btn btn-primary"
-                href="https://github.com/CommunityPro/portfolio-html"
+                href="/src/assets/Aathithan_Chandrabalan_Resume.pdf"
+                download="Aathithan_Chandrabalan_Resume.pdf"
                 >RESUME <i class="fas fa-arrow-right"></i
               ></a>
             </li>
@@ -119,7 +121,7 @@
           <p>Systems Design Engineering @ University of Waterloo</p>
         </div>
         <a
-          href="https://github.com/CommunityPro/portfolio-html"
+          href="mailto:a60chand@uwaterloo.ca"
           class="btn btn-secondary"
           target="_blank"
           >Connect</a
@@ -127,91 +129,177 @@
       </section>
     </header>
 
-    <!-- Projects -->
+    <!-- Experience -->
     <section id="experience" class="project-container container">
       <div class="division"></div>
       <div class="content-text">
         <h2>Experience</h2>
-        <p>My previous internships</p>
+        <p>My previous internships and extra-curriculars</p>
       </div>
-      <article class="project">
-        <!-- Project 1 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project One</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
+
+      <article class="experience">
+        <!-- Roo -->
+        <div class="experience-block">
+          <h3>Software Engineer Intern (Express, PostgreSQL, React)</h3>
+          <p>Roo, San Francisco, CA | Sept 2024 – Dec 2024</p>
+          <ul>
+            <li>
+              <p>
+                Roo Veterinary connects veterinary professionals with clinics in
+                need of relief coverage. By posting open shifts on their
+                user-friendly site, Roo empowers full-time veterinarians to take
+                well-deserved breaks without disrupting patient care. At the
+                same time, smaller practices and hospitals can rely on Roo to
+                quickly fill unexpected or emergency staffing gaps, ensuring
+                continuous, high-quality service for pets and their families.
+              </p>
+              <ul style="list-style: none; margin-left: 30px">
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Developed a shift-preview feature for potential veterinarian
+                  clients, enabling them to explore and book open shifts across
+                  multiple clinics, driving 3,000+ additional booked calls
+                  monthly
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Implemented a real-time spend tracker that paused low-ROI
+                  campaigns through integrating HubSpot and AWS Lambda, saving
+                  $75,000 of allocated promotion funds annually
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Migrated payment processing system from Plaid to Stripe,
+                  integrating endpoints to provide clearer error messaging
+                  during bank account setup, cutting user support requests by
+                  30%
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Designed and optimized queries to consolidate booking rates
+                  and promotional redemption logs, integrating the results into
+                  Tableau for data analytics and BI
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <!-- Project 2 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Two</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
+
+        <!-- Boost Collective -->
+        <div class="experience-block">
+          <h3>Software Engineer Intern (Express, PostgreSQL, React)</h3>
+          <p>Boost Collective, Waterloo, ON | Jan 2024 – Apr 2024</p>
+          <ul>
+            <li>
+              <p>
+                Boost Collective is a music marketing and distribution platform
+                that helps artists reach larger audiences, analyze streaming
+                performance, and manage royalty splits seamlessly.
+              </p>
+              <ul style="list-style: none; margin-left: 30px">
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Spearheaded end-to-end implementation of a data analytics
+                  dashboard for music artists, enabling them to view audience
+                  engagement patterns by calculating and displaying key
+                  performance metrics
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Developed a profit split management system for songs with
+                  multiple artists, allowing users to invite collaborators and
+                  configure royalty splits, adopted by 80% of target user base
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Configured Meta Pixels to monitor page flow and conversion
+                  rates, identifying bottlenecks and optimizing UI/UX, resulting
+                  in a 25% boost in user retention
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <!-- Project 3 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Three</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
+
+        <!-- Multimatic -->
+        <div class="experience-block">
+          <h3>Software Engineer Intern (C#, SQL)</h3>
+          <p>Multimatic, Toronto, ON | May 2023 – Aug 2023</p>
+          <ul>
+            <li>
+              <p>
+                Multimatic is a global automotive engineering and manufacturing
+                company specializing in the development and production of
+                vehicle systems, components, and lightweight structures.
+              </p>
+              <ul style="list-style: none; margin-left: 30px">
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Streamlined daily SAP log imports by designing a bulk copy
+                  module, cutting write times by 80%
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Designed a C# data streaming platform to push OneStream
+                  financial data to MySQL, enabling Microsoft PowerBI for data
+                  visualization and analytics
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <!-- Project 4 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Four</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
+
+        <!-- Kindred AI -->
+        <div class="experience-block">
+          <h3>Robotics Software Engineer Intern (Python, Go)</h3>
+          <p>Kindred AI (now Ocado), Toronto, ON | Sept 2022 – Dec 2022</p>
+          <ul>
+            <li>
+              <p>
+                Kindred AI specializes in cutting-edge robotics and AI
+                solutions, leveraging advanced machine learning for industrial
+                automation and warehouse robotics.
+              </p>
+              <ul style="list-style: none; margin-left: 30px">
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Architected a user interface for robotic arms, enabling
+                  real-time motion control and automating testing, saving 10+
+                  developer hours per week
+                </li>
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Implemented a queue-based waypoint navigation system,
+                  resolving race condition movement errors and reducing the
+                  overall error rate by 10%
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <!-- Project 5 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Five</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Project 6 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Six</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
+
+        <!-- UW Blueprint -->
+        <div class="experience-block">
+          <h3>Team Lead (React, Express, GraphQL, MongoDB)</h3>
+          <p>UW Blueprint | Ongoing</p>
+          <ul>
+            <li>
+              <p>
+                UW Blueprint is a student-run organization at the University of
+                Waterloo that develops pro bono technology solutions for
+                nonprofits, focusing on community impact and hands-on learning.
+              </p>
+              <ul style="list-style: none; margin-left: 30px">
+                <li>
+                  <span style="font-weight: bold; margin-right: 5px">●</span>
+                  Led a team of 7 developers to deliver a volunteer shift
+                  sign-up system with automated alerts for canceled or empty
+                  shifts, streamlining workflows and enabling leaders to focus
+                  on high-impact tasks
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </article>
     </section>
@@ -227,79 +315,55 @@
         <!-- Project 1 -->
         <div href="" class="card">
           <div class="project-info">
-            <div class="project-bio">
-              <h3>Project One</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
+            <a href="https://github.com/uwblueprint/abtc" target="_blank">
+              <div class="project-bio">
+                <h3>A Better Tent City</h3>
+                <p>React, Express, MongoDB</p>
+              </div>
+            </a>
           </div>
         </div>
         <!-- Project 2 -->
         <div href="" class="card">
           <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Two</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
+            <a
+              href="https://github.com/uwblueprint/supportive-housing"
+              target="_blank"
+            >
+              <div class="project-bio">
+                <h3>Suportive Housing of Waterloo</h3>
+                <p>React, Express, PostgreSQL</p>
+              </div>
+            </a>
           </div>
         </div>
         <!-- Project 3 -->
         <div href="" class="card">
           <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Three</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
+            <a
+              href="https://github.com/achandrabalan/brain-buddies-v2"
+              target="_blank"
+            >
+              <div class="project-bio">
+                <h3>Brain Buddies</h3>
+                <p>NextJS, Express, PostgreSQL</p>
+              </div>
+            </a>
           </div>
         </div>
         <!-- Project 4 -->
         <div href="" class="card">
+          ><i class="fab fa-github"></i>
           <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Four</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Project 5 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Five</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Project 6 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Six</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
+            <a
+              href="https://devpost.com/software/unravel-0antk1"
+              target="_blank"
+            >
+              <div class="project-bio">
+                <h3>Unravel</h3>
+                <p>React, Flask, Cohere</p>
+              </div>
+            </a>
           </div>
         </div>
       </article>
@@ -307,18 +371,19 @@
 
     <footer id="footer">
       <div class="container">
-        <a href="mailto:communitypro47@gmail.com">a69chand@uwaterloo.ca</a>
+        <a href="mailto:a69chand@uwaterloo.ca">a69chand@uwaterloo.ca</a>
         <!-- Social links -->
         <div class="social">
-          <a href="#" target="_blank"
+          <a href="https://www.linkedin.com/in/aathi/" target="_blank"
             ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
           /></a>
-          <a href="#" target="_blank"
+          <a href="https://github.com/achandrabalan" target="_blank"
             ><img src="./assets/github-icon.svg" alt="GitHub"
           /></a>
         </div>
       </div>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
