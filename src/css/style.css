@@ -172,6 +172,27 @@ body {
   margin-bottom: 2rem; /* or however much space you want */
 }
 
+.experience-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.iframe-container {
+}
+
+iframe {
+  width: 100%;
+  height: 150px; /* Height of the iframe */
+  border-radius: 8px; /* Rounded corners for aesthetic */
+  border: none; /* Remove border */
+}
+
+.experience-content {
+  flex: 1; /* Take up remaining space */
+}
+
 .card .project-bio p {
   font-size: 0.83rem;
 }
