@@ -58,6 +58,14 @@ body {
   line-height: 1.5;
 }
 
+.tab-list {
+  list-style-type: disc; /* Sets the bullet point */
+  padding-left: 40px; /* Space for the bullet and tab */
+}
+.tab-list li {
+  padding-left: 20px; /* Adds consistent tab space for all lines */
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -179,9 +187,6 @@ body {
   margin-bottom: 40px;
 }
 
-.iframe-container {
-}
-
 iframe {
   width: 100%;
   height: 150px; /* Height of the iframe */
@@ -191,6 +196,7 @@ iframe {
 
 .experience-content {
   flex: 1; /* Take up remaining space */
+  min-width: 550px;
 }
 
 .card .project-bio p {
