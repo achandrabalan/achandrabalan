@@ -121,7 +121,7 @@
           <p>Systems Design Engineering @ University of Waterloo</p>
         </div>
         <a
-          href="mailto:a60chand@uwaterloo.ca"
+          href="mailto:a69chand@uwaterloo.ca"
           class="btn btn-secondary"
           target="_blank"
           >Connect</a
@@ -129,7 +129,11 @@
       </section>
     </header>
 
-    <section id="experience" class="project-container container">
+    <section
+      id="experience"
+      class="project-container container"
+      style="max-height: 2200px"
+    >
       <div class="division"></div>
       <div class="content-text">
         <h2>Experience</h2>
@@ -138,7 +142,16 @@
 
       <article class="experience">
         <!-- Roo -->
-        <div class="experience-block experience-row">
+        <div
+          style="
+            width: full;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 40px;
+          "
+        >
           <div style="width: 480px; height: 270px; overflow: hidden">
             <iframe
               src="https://roo.vet"
@@ -163,23 +176,32 @@
               </li>
               <li>
                 Implemented a real-time spend tracker that paused low-ROI
-                campaigns, saving $75,000 of allocated promotion funds annually.
+                campaigns, saving $75,000 of allocated promotion funds annually
               </li>
               <li>
                 Migrated payment processing system from Plaid to Stripe, cutting
-                user support requests by 30%.
+                user support requests by 30%
               </li>
               <li>
                 Designed and optimized queries to consolidate booking rates and
                 promotional redemption logs, integrating the results into
-                Tableau for data analytics and BI.
+                Tableau for data analytics and BI
               </li>
             </ul>
           </div>
         </div>
 
         <!-- Boost Collective -->
-        <div class="experience-block experience-row">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            max-height: 300px;
+            gap: 20px;
+            margin-bottom: 40px;
+          "
+        >
           <div class="experience-content">
             <h3>Software Engineer Intern (Express, PostgreSQL, React)</h3>
             <p>Boost Collective, Waterloo, ON | Jan 2024 – Apr 2024</p>
@@ -187,21 +209,189 @@
               <li>
                 Spearheaded end-to-end implementation of a data analytics
                 dashboard for music artists, enabling them to view audience
-                engagement patterns.
+                engagement patterns by calculating and displaying key
+                performance metrics
               </li>
               <li>
                 Developed a profit split management system for songs with
-                multiple artists, adopted by 80% of the target user base.
+                multiple artists, allowing users to invite collaborators and
+                configure royalty splits, adopted by 80% of target user base
               </li>
               <li>
                 Configured Meta Pixels to monitor page flow and conversion
-                rates, resulting in a 25% boost in user retention.
+                rates, identifying bottlenecks and optimizing UI/UX, resulting
+                in a 25% boost in user retention
               </li>
             </ul>
           </div>
           <div class="iframe-container">
             <iframe
               src="https://www.boost-collective.com/music-distribution"
+              style="
+                width: 1920px;
+                height: 1080px;
+                transform: scale(0.25); /* Scale to 50% (960x540) */
+                transform-origin: top left; /* Ensure scaling is from the top-left corner */
+                border: none;
+              "
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Multimatic -->
+        <div
+          style="
+            width: full;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 40px;
+          "
+        >
+          <div style="width: 480px; height: 270px; overflow: hidden">
+            <iframe
+              src="https://roo.vet"
+              style="
+                width: 1920px;
+                height: 1080px;
+                transform: scale(0.25); /* Scale to 50% (960x540) */
+                transform-origin: top left; /* Ensure scaling is from the top-left corner */
+                border: none;
+              "
+            ></iframe>
+          </div>
+          <div class="experience-content">
+            <h3>Software Engineer Intern (C#, SQL)</h3>
+            <p>Multimatic, Toronto, ON | May 2023 – Aug 2023</p>
+            <ul class="tab-list">
+              <li>
+                Streamlined daily SAP log imports by designing a bulk copy
+                module, cutting write times by 80%
+              </li>
+              <li>
+                Designed a C# data streaming platform to push OneStream
+                financial data to MySQL, enabling Microsoft PowerBI for data
+                visualization and analytics
+              </li>
+              <li>
+                Implemented a distributed data synchronization system using
+                Python scripts and scheduled CronJobs, ensuring data coherence
+                across a network of 200+ machines
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Kindred -->
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            max-height: 300px;
+            gap: 20px;
+            margin-bottom: 40px;
+          "
+        >
+          <div class="experience-content">
+            <h3>Robotics Software Engineer Intern (Python, Go)</h3>
+            <p>Kindred AI (now Ocado), Toronto, ON | Sept 2022 – Dec 2022</p>
+            <ul class="tab-list">
+              <li>
+                Architected a user interface for robotic arms, enabling
+                real-time motion control and automating testing, saving 10+
+                developer hours per week
+              </li>
+              <li>
+                Implemented a queue-based waypoint navigation system, resolving
+                race condition movement errors and reducing the overall error
+                rate by 10%
+              </li>
+              <li>
+                Designed a comprehensive Python testing suite, automating the
+                existing manual remote control process, saving an average of 10
+                developer hours weekly
+              </li>
+            </ul>
+          </div>
+          <div class="iframe-container">
+            <iframe
+              src="https://www.boost-collective.com/music-distribution"
+              style="
+                width: 1920px;
+                height: 1080px;
+                transform: scale(0.25); /* Scale to 50% (960x540) */
+                transform-origin: top left; /* Ensure scaling is from the top-left corner */
+                border: none;
+              "
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- HomeTrust -->
+        <div class="experience-block experience-row">
+          <div style="width: 480px; height: 270px; overflow: hidden">
+            <iframe
+              src="https://www.hometrust.ca/"
+              style="
+                width: 1920px;
+                height: 1080px;
+                transform: scale(0.25); /* Scale to 50% (960x540) */
+                transform-origin: top left; /* Ensure scaling is from the top-left corner */
+                border: none;
+              "
+            ></iframe>
+          </div>
+          <div class="experience-content">
+            <h3>Software Developer Intern (Express, PostgreSQL, React)</h3>
+            <p>HomeTrust, Toronto, ON | Sept 2024 – Dec 2024</p>
+            <ul class="tab-list">
+              <li>
+                Pioneered HomeTrust's marketing campaign by developing an AR
+                user-interface, leveraging React and Three.js to increase first
+                time user engagement by 28%
+              </li>
+              <li>
+                Streamlined incident data retrieval using Python with
+                ServiceNow's Aggregate API, reducing report generation time by
+                80%
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Blueprint -->
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            max-height: 300px;
+            gap: 20px;
+            margin-bottom: 40px;
+          "
+        >
+          <div class="experience-content">
+            <h3>Team Lead (Express, GraphQL, Typescript, React)</h3>
+            <p>UW Blueprint, Waterloo, ON | Sept 2024 – Dec 2024</p>
+            <ul class="tab-list">
+              <li>
+                Led a team of 7 developers to deliver a volunteer shift sign up
+                system with automated alerts for canceled or empty shifts,
+                streamlining workflows and enabling leaders to focus on
+                high-impact tasks
+              </li>
+              <li>
+                Enhanced security by configuring middleware to enforce
+                role-specific policies and validate user permissions for each
+                GraphQL query and mutation
+              </li>
+            </ul>
+          </div>
+          <div class="iframe-container">
+            <iframe
+              src="https://uwblueprint.org/"
               style="
                 width: 1920px;
                 height: 1080px;
